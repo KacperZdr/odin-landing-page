@@ -110,11 +110,13 @@ li a {
   padding: 150px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 30px;
 }
 
 .banner-content {
-  flex: auto;
+  flex: 1;
+  min-width: 400px;
 }
 
 .banner-content h1 {
@@ -131,9 +133,11 @@ li a {
 }
 
 .banner-img {
-  flex: auto;
-  width: 800px;
+  flex: 1.5;
+  width: 600px;
+  min-width: 300px;
   height: auto;
+  min-height: 100px;
   background-color: #2c3e58;
   text-align: center;
 }
